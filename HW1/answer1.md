@@ -13,10 +13,10 @@ while (a^k + b^k != c^k)
   c=c+1
   a=b=1
  else if a equals b
-   b=b+1
-   a=1
+  b=b+1
+  a=1
  else
-   a=a+1
+  a=a+1
 
 print "There is a solution for " + a, b ,c
 
