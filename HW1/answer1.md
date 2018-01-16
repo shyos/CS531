@@ -23,7 +23,7 @@ print "There is a solution for " + a, b ,c
 ```
 
 **Explaination:**
-Above pseudocode takes k as an input. Then exhaustively searchs all possible values for a,b,c and stops when it finds a solution. It tries all possible (a,b)<=c pairs for c value. Then increaments c and then tries all (a,b)<=c values for c. 
+Above pseudocode takes k as an input. Then exhaustively searchs all possible values for a,b,c and stops when it finds a solution. It tries all possible (a,b)<=c pairs for c value. Then increaments c and then tries all (a,b)<=c values for new c value. It continues until it finds a solution or when program crashes at a physical limit. 
 
 **Why this algorithm is correct?**
 
