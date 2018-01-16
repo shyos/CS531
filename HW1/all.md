@@ -21,7 +21,6 @@ while (a^k + b^k != c^k)
 print "There is a solution for " + a, b ,c
 
 ```
-
 **Explaination:**
 Above pseudocode takes k as an input. Then exhaustively searchs all possible values for a,b,c and stops when it finds a solution. It tries all possible (a,b)<=c pairs for c value. Then increaments c and then tries all (a,b)<=c values for new c value. It continues until it finds a solution or when program crashes at a physical limit. 
 
@@ -54,14 +53,6 @@ while (pow(a,k) + pow(b,k) != pow(c,k)) :
 print "There is a solution for ", a, b, c
 
 ```
-
-
-[1]A. Wiles, "Modular elliptic curves and Fermat's last theorem," Ann. Math., 141:3 (1995) 443--551.
-
-
-
-
-
 
 ## Answer 2 ##
 I would say him 2 things: <br/>
@@ -125,4 +116,7 @@ if k == A[i] and x == 1
 return Subset-Sum-SizeX(A,k,i+1,x) or BinarySearch(A,k-a,i+1,x-1)
 ```
 **Part E** Proof of Part D<br/>
-Since we can sort an array in O(nlogn) time with MergeSort, first step is trivial. Then we start our algorithm. However to reduce O(n^2) to O(nlogn) for Subset Algorithm, we need change our style to finding j value in i+j=k. Since we have a sorted set A now, we can use BinarySearch to find j. Binary search terminates in O(logn). Since we run BinarySearch n times and we know that, algorithm was correct from Part B, we can say that our algorithm terminates with correct output in O(nlogn)
+Since we can sort an array in O(nlogn) time with MergeSort, first step is trivial. Then we start our algorithm. However to reduce O(n^2) to O(nlogn) for Subset Algorithm, we need change our style to finding j value in i+j=k. Since we have a sorted set A now, we can use BinarySearch to find j. Binary search terminates in O(logn). Since we run BinarySearch n times and we know that, algorithm was correct from Part B, we can say that our algorithm terminates with correct output in O(nlogn).
+
+
+[1]A. Wiles, "Modular elliptic curves and Fermat's last theorem," Ann. Math., 141:3 (1995) 443--551.
