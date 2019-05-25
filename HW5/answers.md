@@ -15,16 +15,13 @@ But did it really found the shortest path to all nodes? Clearly not. We found th
 a) For the purpose of contradiction, assume union of all these n-1 paths forms a tree T. Let an edge e is not in the T and is a part of a shortest path to node v from s. If we add e to T, new graph will contain a cycle in between s and v nodes. Since e creates a new shortest path to v, from Cycle Property we can remove another edge e' in this cycle which gives us a tree. Since new path is a shortest path, it should have been found on the initial tree. Contradiction!! Thus there cannot  be such an edge e.
 
 b) I can prove it with a counter example:
-![CounterExample](./pic2
-.png "CounterExample")
+![CounterExample](./pic2.png "CounterExample")
 
 Shortest(Dijkstra) path algorithm finds:
-![CounterExample](./pic3
-.png "CounterExample")
+![CounterExample](./pic3.png "CounterExample")
 
 MST finds:
-![CounterExample](./pic4
-.png "CounterExample")
+![CounterExample](./pic4.png "CounterExample")
 
 ## ** 3 Counting Argument  **
 
